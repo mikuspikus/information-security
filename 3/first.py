@@ -2,7 +2,8 @@ import os
 import string
 
 def _get_plain_text(file_name):
-    path = os.path.join(file_name)
+    script_dir = os.path.dirname(__file__)
+    path = os.path.join(script_dir, file_name)
 
     with open(path, 'r') as f:
         buffer = f.read()

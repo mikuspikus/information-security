@@ -3,7 +3,8 @@ from first import _get_plain_text, caesar_decipher
 import string
 
 def _read_letter_freq(file_name):
-    path = os.path.join(file_name)
+    script_dir = os.path.dirname(__file__)
+    path = os.path.join(script_dir, file_name)
     letters_frequency = {}
 
     with open(path, 'r') as f:
