@@ -1,0 +1,5 @@
+kojima 500 3
+kojimbo 500 5
+anna 500 2
+Memes 0 5
+pepe 451 3
